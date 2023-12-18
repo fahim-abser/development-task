@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "picture": "./Assets/Avatar1.png",
+        "name": "Corey Korsgaard",
+        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    },
+    {
+        "id": "1",
+        "picture": "./Assets/Avatar 2.png",
+        "name": "Jakob Aminoff",
+        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    },
+    {
+        "id": "1",
+        "picture": "./Assets/Avatar 3.png",
+        "name": "Carla Press",
+        "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    }
+]
