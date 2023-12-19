@@ -16,14 +16,14 @@ const AdventureSection = () => {
                 </div>
             </div>
             <div className='flex'>
-                <img src={avatar1} alt="" />
+                <img src={avatar2} alt="" />
                 <div>
                 <h5>Jenny Wilson</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing...</p>
                 </div>
             </div>
             <div className='flex'>
-                <img src={avatar1} alt="" />
+                <img src={avatar3} alt="" />
                 <div>
                 <h5>Jenny Wilson</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing...</p>

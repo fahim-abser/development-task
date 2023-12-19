@@ -7,6 +7,7 @@ import Testimonials from '../Testimonials/Testimonials';
 import BotomDetails from '../BotomDetails/BotomDetails';
 import Footer from '../Footer/Footer';
 import AdventureSection from '../AdventureSection/AdventureSection';
+import Booking from '../Booking/Booking';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
                 <AdventureSection></AdventureSection>
                 <Destinations></Destinations>
                 <Discount></Discount>
+                <Booking></Booking>
                 <Testimonials></Testimonials>
                 <BotomDetails></BotomDetails>
                 <Footer></Footer>

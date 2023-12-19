@@ -13,6 +13,7 @@ const Discount = () => {
                 <li>Eros non pellentesque elit </li>
                 <li>tortor id euismod habitant</li>
                 <li>Sed suspendisse id in ultrices</li>
+                <button className='btn'>Explore More</button>
             </div>
             <div>
                 <img src={discountImage} alt="" />

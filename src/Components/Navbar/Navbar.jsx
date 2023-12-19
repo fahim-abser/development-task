@@ -16,23 +16,20 @@ const Navbar = () => {
           <a href="#about">About</a>
         </li>
         <li className="list-item">
-          <a href="#menu">Menu</a>
+          <a href="#schedules">Schedules</a>
         </li>
         <li className="list-item">
-          <a href="#awards">Awards</a>
+          <a href="#membership">Membership</a>
         </li>
         <li className="list-item">
-          <a href="#contact">Contact</a>
+          <a href="#pricing">Pricing</a>
         </li>
       </ul>
       <div className="nav-login">
-        <a href="#login" className="list-item">
-          Register
+        <a href="#offers" className="">
+          Offers
         </a>
-        <div></div>
-        <a href="#login" className="list-item">
-          Book A Table
-        </a>
+       <button className="btn">Courses</button>
       </div>
       <div className="nav-smallScreen">
         <GiHamburgerMenu
