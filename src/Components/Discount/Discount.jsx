@@ -7,7 +7,7 @@ const Discount = () => {
         
             <div className='flex mt-20 justify-center space-x-72'>
             <div>
-                <p className='font-semibold mt-10'>Get 20% off for student</p>
+                <p className='font-semibold mt-28'>Get 20% off for student</p>
                 <h3 className='text-2xl mt-3 mb-3'><span className='font-semibold text-4xl'>Student discounts available.</span> <br /> Get ready for some fun in the sun!</h3>
                 <div className='ms-2'>
                 <li>Lorem ipsum dolor sit amet</li>
@@ -19,7 +19,7 @@ const Discount = () => {
                 <button className='btn mt-10 bg-orange-600 border-none text-white rounded-full'>Explore More</button>
             </div>
             <div>
-                <img className='h-96' src={discountImage} alt="" />
+                <img className='h-[500px]' src={discountImage} alt="" />
             </div>
         </div>
         
@@ -27,3 +27,5 @@ const Discount = () => {
 };
 
 export default Discount;
+
+
