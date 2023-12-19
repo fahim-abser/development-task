@@ -4,21 +4,25 @@ import discountImage from '../Assets/Mask group.png'
 const Discount = () => {
     return (
         
-        <div>
+        
+            <div className='flex mt-20 justify-center space-x-72'>
             <div>
-                <p>Get 20% off for student</p>
-                <h3><span>Student discounts available.</span> <br /> Get ready for some fun in the sun!</h3>
+                <p className='font-semibold mt-10'>Get 20% off for student</p>
+                <h3 className='text-2xl mt-3 mb-3'><span className='font-semibold text-4xl'>Student discounts available.</span> <br /> Get ready for some fun in the sun!</h3>
+                <div className='ms-2'>
                 <li>Lorem ipsum dolor sit amet</li>
                 <li>Massa quis natoque sit quam</li>
                 <li>Eros non pellentesque elit </li>
                 <li>tortor id euismod habitant</li>
                 <li>Sed suspendisse id in ultrices</li>
-                <button className='btn'>Explore More</button>
+                </div>
+                <button className='btn mt-10 bg-orange-600 border-none text-white rounded-full'>Explore More</button>
             </div>
             <div>
-                <img src={discountImage} alt="" />
+                <img className='h-96' src={discountImage} alt="" />
             </div>
         </div>
+        
     );
 };
 
