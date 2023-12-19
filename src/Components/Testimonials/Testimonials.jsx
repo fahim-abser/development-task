@@ -13,8 +13,8 @@ const Testimonials = () => {
     return (
         
         <div>
-            <h3>Testimonials</h3>
-             <div>
+            <h3 className='font-bold text-3xl text-center mb-16'>Testimonials</h3>
+             <div className='grid grid-cols-3 justify-center justify-items-center text-center'>
                 {
                     data.map(data => <TestimonialsCard
                          key={data.id}
