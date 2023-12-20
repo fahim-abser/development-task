@@ -5,12 +5,13 @@ const Booking = () => {
   const [count, setCount] = useState(4);
   const [dayCount, setDayCount] = useState(1);
 
-  function successfullyBooked() {
-    alert("done");
+  function successfullyBooked(e) {
+    e.preventDefault();
+    alert("Your booking is CONFIRMED.  We will contact you soon.");
   }
 
   return (
-    <div className="flex mt-20 justify-center">
+    <div className="lg:flex mt-20 justify-center">
       <div className="w-1/2">
         <img className="h-[550px] place-items-center" src={image} alt="" />
       </div>
@@ -49,7 +50,7 @@ const Booking = () => {
                   <span className="label-text font-semibold">DEPARTURE</span>
                 </div>
                 <input
-                  type="text"
+                  type="number"
                   placeholder="11 October"
                   className="input bg-white input-bordered  max-w-xs"
                   required

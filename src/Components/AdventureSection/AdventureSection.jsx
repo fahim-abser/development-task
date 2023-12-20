@@ -8,8 +8,8 @@ import smallImage2 from '../Assets/Ellipse 56.png'
 const AdventureSection = () => {
     return (
         
-        <div className='flex justify-center space-x-72 '>
-            <div className='mt-16'>
+        <div className='lg:flex justify-center lg:space-x-72 '>
+            <div className='mt-16 w-80'>
             <div className='flex  rounded-lg p-3 shadow-md mt-8'>
                 <img className='mr-5 h-16 mt-1' src={avatar1} alt="" />
                 <div>

@@ -5,7 +5,7 @@ const Discount = () => {
     return (
         
         
-            <div className='flex mt-20 justify-center space-x-72'>
+            <div className='lg:flex mt-20 lg:justify-center lg:space-x-72'>
             <div>
                 <p className='font-semibold mt-28'>Get 20% off for student</p>
                 <h3 className='text-2xl mt-3 mb-3'><span className='font-semibold text-4xl'>Student discounts available.</span> <br /> Get ready for some fun in the sun!</h3>

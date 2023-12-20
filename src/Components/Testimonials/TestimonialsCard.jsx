@@ -10,8 +10,8 @@ const TestimonialsCard = (props) => {
       </div>
       <div>
         <p className="mt-2">{name}</p>
-        <hr className="w-28 ms-16 mb-6 mt-2" />
-        <p className="text-sm">{details}</p>
+        <hr className="w-28 ms-16 lg:mb-6 mt-2" />
+        <p className="text-sm mb-10">{details}</p>
       </div>
     </div>
   );

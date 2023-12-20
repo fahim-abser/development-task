@@ -7,7 +7,6 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <nav className="navbar">
-      
       <ul className="nav-links">
         <li className="list-item">
           <a href="#home">Home</a>
@@ -29,7 +28,9 @@ const Navbar = () => {
         <a href="#offers" className="">
           Offers
         </a>
-       <button className="btn px-9 mt-10 bg-orange-600 border-none text-white rounded-full">Courses</button>
+        <button className="btn px-9  bg-orange-600 border-none text-white rounded-full">
+          Courses
+        </button>
       </div>
       <div className="nav-smallScreen">
         <GiHamburgerMenu
@@ -50,13 +51,13 @@ const Navbar = () => {
                 <a href="#about">About</a>
               </li>
               <li className="list-item">
-                <a href="#menu">Menu</a>
+                <a href="#schedules">Schedules</a>
               </li>
               <li className="list-item">
-                <a href="#awards">Awards</a>
+                <a href="#membership">Membership</a>
               </li>
               <li className="list-item">
-                <a href="#contact">Contact</a>
+                <a href="#pricing">Pricing</a>
               </li>
             </ul>
           </div>
