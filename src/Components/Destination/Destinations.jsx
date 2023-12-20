@@ -4,9 +4,10 @@ import image1 from '../Assets/card-image (1).png'
 import image2 from '../Assets/card-image (2).png'
 import image3 from '../Assets/card-image (3).png'
 import image4 from '../Assets/card-image (4).png'
+import { HiOutlineDotsHorizontal } from "react-icons/hi";
 
 
-var settings = {
+ var settings = {
     dots: true,
     infinite: false,
     speed: 500,
@@ -42,105 +43,51 @@ var settings = {
   };
 const Destinations = () => {
     return (
-    <div>
-        <h2> Our Destinations </h2>
+    <div className='w-11/12 mx-auto mt-32'>
+        <h2 className='text-3xl font-bold my-6'> Our Destinations </h2>
         <Slider {...settings}>
           <div>
-            <img src={image1} alt="" />
-            <h3>Harvard University</h3>
+            <img className='h-60' src={image1} alt="" />
+           <div className='m-3'>
+             <h3 className='font-bold text-2xl mt-3 mb-5'>Harvard University</h3>
             <div className='flex'>
-                <p>Cambridge, Massachusetts, UK</p>
-                <button>...</button>
+                <p className='text-sm '>Cambridge, Massachusetts, UK</p>
+                <p className='border rounded-full p-1 ms-7'><HiOutlineDotsHorizontal /></p>
+                
             </div>
+           </div>
           </div>
           <div>
-          <img src={image2} alt="" />
-            <h3>Oxford University</h3>
+          <img className='h-60' src={image2} alt="" />
+           <div className='m-3'>
+           <h3 className='font-bold text-2xl mt-3 mb-5'>Oxford University</h3>
             <div className='flex'>
-                <p>Oxford, England</p>
-                <button>...</button>
+                <p className='text-sm '>Oxford, England</p>
+                <p className='border rounded-full p-1 ms-28'><HiOutlineDotsHorizontal /></p>
             </div>
+           </div>
           </div>
           <div>
-          <img src={image3} alt="" />
-            <h3>Stanford University</h3>
+          <img className='h-60' src={image3} alt="" />
+           <div className='m-3'>
+           <h3 className='font-bold text-2xl mt-3 mb-5'>Stanford University</h3>
             <div className='flex'>
-                <p>Stanford, California</p>
-                <button>...</button>
+                <p className='text-sm '>Stanford, California</p>
+                <p className='border rounded-full  p-1 ms-24'><HiOutlineDotsHorizontal /></p>
             </div>
+           </div>
           </div>
           <div>
-          <img src={image4} alt="" />
-            <h3>Harvard University</h3>
+          <img className='h-60' src={image4} alt="" />
+            <div className='m-3'>
+            <h3 className='font-bold text-2xl mt-3 mb-5'>Nanyang University</h3>
             <div className='flex'>
-                <p>Nanyang Technological University</p>
-                <button>...</button>
+                <p className='text-sm '>Nanyang Ave, Singapura</p>
+                <p className='border rounded-full p-1 ms-20'><HiOutlineDotsHorizontal /></p>
+            </div>
             </div>
           </div>
-          <div>
-          <img src={image1} alt="" />
-            <h3>Harvard University</h3>
-            <div className='flex'>
-                <p>Cambridge, Massachusetts, UK</p>
-                <button>...</button>
-            </div>
-          </div>
-          <div>
-          <img src={image2} alt="" />
-            <h3>Oxford University</h3>
-            <div className='flex'>
-                <p>Oxford, England</p>
-                <button>...</button>
-            </div>
-          </div>
-          <div>
-          <img src={image3} alt="" />
-            <h3>Stanford University</h3>
-            <div className='flex'>
-                <p>Stanford, California</p>
-                <button>...</button>
-            </div>
-          </div>
-          <div>
-          <img src={image4} alt="" />
-            <h3>Harvard University</h3>
-            <div className='flex'>
-                <p>Nanyang Technological University</p>
-                <button>...</button>
-            </div>
-          </div>
-          <div>
-          <img src={image1} alt="" />
-            <h3>Harvard University</h3>
-            <div className='flex'>
-                <p>Cambridge, Massachusetts, UK</p>
-                <button>...</button>
-            </div>
-          </div>
-          <div>
-          <img src={image2} alt="" />
-            <h3>Oxford University</h3>
-            <div className='flex'>
-                <p>Oxford, England</p>
-                <button>...</button>
-            </div>
-          </div>
-          <div>
-          <img src={image3} alt="" />
-            <h3>Stanford University</h3>
-            <div className='flex'>
-                <p>Stanford, California</p>
-                <button>...</button>
-            </div>
-          </div>
-          <div>
-          <img src={image4} alt="" />
-            <h3>Harvard University</h3>
-            <div className='flex'>
-                <p>Nanyang Technological University</p>
-                <button>...</button>
-            </div>
-          </div>
+         
         </Slider>
       </div>
     

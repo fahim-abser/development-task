@@ -29,7 +29,7 @@ const Navbar = () => {
         <a href="#offers" className="">
           Offers
         </a>
-       <button className="btn">Courses</button>
+       <button className="btn px-9 mt-10 bg-orange-600 border-none text-white rounded-full">Courses</button>
       </div>
       <div className="nav-smallScreen">
         <GiHamburgerMenu

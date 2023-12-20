@@ -11,7 +11,7 @@ const Banner = () => {
             <button className="btn px-9 mt-10 bg-orange-600 border-none text-white rounded-full">SIGN UP</button>
         </div>
         <div className=''>
-            <img className='max-h-screen' src={bannerImage} alt="" />
+            <img className='h-[500px]' src={bannerImage} alt="" />
         </div>
     </div>
         
